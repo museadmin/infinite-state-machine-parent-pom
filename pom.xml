@@ -6,7 +6,7 @@
 
     <groupId>com.github.museadmin</groupId>
     <artifactId>infinite-state-machine-parent-pom</artifactId>
-    <version>1.1</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The parent pom for the infinite-state-machine project</description>
@@ -75,7 +75,7 @@
                 <configuration>
                     <serverId>ossrh</serverId>
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
         </plugins>
@@ -83,7 +83,7 @@
 
     <profiles>
         <profile>
-            <id>release</id>
+            <id>deploy</id>
             <build>
                 <plugins>
                     <plugin>
@@ -125,7 +125,7 @@
                                 </goals>
                                 <configuration>
                                     <keyname>6F15D8180079D54338A1CAD961E4E68A46641477</keyname>
-                                    <passphraseServerId>hkp://pool.sks-keyservers.net</passphraseServerId>
+                                    <passphraseServerId>http://keys.gnupg.net</passphraseServerId>
                                 </configuration>
                             </execution>
                         </executions>
