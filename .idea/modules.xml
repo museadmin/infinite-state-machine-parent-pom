@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/infinite-state-machine-parent-pom.iml" filepath="$PROJECT_DIR$/infinite-state-machine-parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infinite-state-machine-parent-pom.iml" filepath="$PROJECT_DIR$/infinite-state-machine-parent-pom.iml" />
     </modules>
   </component>
 </project>

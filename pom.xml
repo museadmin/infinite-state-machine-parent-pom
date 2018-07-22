@@ -12,6 +12,12 @@
     <description>The parent pom for the infinite-state-machine project</description>
     <url>https://github.com/museadmin</url>
 
+    <properties>
+        <ism.core.action.pack.version>1.1.1</ism.core.action.pack.version>
+        <ism.common.version>1.1.1</ism.common.version>
+        <ism.version>1.1.1</ism.version>
+    </properties>
+
     <developers>
         <developer>
             <name>Bradley Atkins</name>
@@ -44,13 +50,6 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-
-    <properties>
-        <infinite.state.machine.version>1.0-SNAPSHOT</infinite.state.machine.version>
-        <infinite.state.machine.core.action.pack>1.0-SNAPSHOT</infinite.state.machine.core.action.pack>
-        <infinite.state.machine.common>1.0-SNAPSHOT</infinite.state.machine.common>
-        <infinite.state.machine.version>1.0-SNAPSHOT</infinite.state.machine.version>
-    </properties>
 
     <build>
         <resources>
