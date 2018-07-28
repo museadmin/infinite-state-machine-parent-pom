@@ -6,16 +6,15 @@
 
     <groupId>com.github.museadmin</groupId>
     <artifactId>infinite-state-machine-parent-pom</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The parent pom for the infinite-state-machine project</description>
     <url>https://github.com/museadmin</url>
 
     <properties>
-        <ism.core.action.pack.version>1.1.1</ism.core.action.pack.version>
-        <ism.common.version>1.1.1</ism.common.version>
-        <ism.version>1.1.1</ism.version>
+        <ism.core.action.pack.version>1.1.2</ism.core.action.pack.version>
+        <ism.version>1.1.2</ism.version>
     </properties>
 
     <developers>
