@@ -6,16 +6,11 @@
 
     <groupId>com.github.museadmin</groupId>
     <artifactId>infinite-state-machine-parent-pom</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The parent pom for the infinite-state-machine project</description>
     <url>https://github.com/museadmin</url>
-
-    <properties>
-        <ism.core.action.pack.version>1.1.2</ism.core.action.pack.version>
-        <ism.version>1.1.2</ism.version>
-    </properties>
 
     <developers>
         <developer>
@@ -49,6 +44,10 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <resources>
